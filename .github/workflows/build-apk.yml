@@ -1,0 +1,73 @@
+name: Build APK
+
+on:
+  push:
+    branches: [ main, develop ]
+  pull_request:
+    branches: [ main, develop ]
+  workflow_dispatch:
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+
+    steps:
+      - uses: actions/checkout@v3
+
+      - name: Setup Java
+        uses: actions/setup-java@v3
+        with:
+          distribution: 'zulu'
+          java-version: '11'
+          cache: gradle
+
+      - name: Setup Flutter
+        uses: subosito/flutter-action@v2
+        with:
+          flutter-version: '3.19.0'
+          channel: 'stable'
+          cache: true
+
+      - name: Get dependencies
+        run: flutter pub get
+
+      - name: Build APK
+        run: flutter build apk --release --split-per-abi
+
+      - name: Upload APK to Release
+        uses: softprops/action-gh-release@v1
+        if: startsWith(github.ref, 'refs/tags/')
+        with:
+          files: build/app/outputs/flutter-apk/*.apk
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+
+      - name: Upload APK as Artifact
+        uses: actions/upload-artifact@v3
+        with:
+          name: apk-release
+          path: build/app/outputs/flutter-apk/
+          retention-days: 30
+
+      - name: Create Release Notes
+        if: startsWith(github.ref, 'refs/tags/')
+        run: |
+          echo "## تِلاوة - Tilawa APK Release" > release_notes.md
+          echo "**Version:** $(git describe --tags)" >> release_notes.md
+          echo "**Build Date:** $(date)" >> release_notes.md
+          echo "" >> release_notes.md
+          echo "### ميزات التطبيق:" >> release_notes.md
+          echo "✅ التسميع الذكي بالذكاء الاصطناعي" >> release_notes.md
+          echo "✅ متصفح القرآن مع 114 سورة" >> release_notes.md
+          echo "✅ الإحصائيات والرسوم البيانية" >> release_notes.md
+          echo "✅ نظام المحفظين المتطوعين" >> release_notes.md
+          echo "✅ دعم اللغات المتعددة" >> release_notes.md
+          echo "✅ Dark Mode كامل" >> release_notes.md
+
+      - name: Notify on Success
+        if: success()
+        run: echo "✅ APK built successfully!"
+
+      - name: Notify on Failure
+        if: failure()
+        run: echo "❌ APK build failed!"
