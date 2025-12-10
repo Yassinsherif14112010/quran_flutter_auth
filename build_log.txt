@@ -1,0 +1,61 @@
+﻿Running Gradle task 'assembleRelease'...                        
+flutter : Target 
+dart_build failed: 
+Error: Android NDK 
+Clang could not be 
+found.
+At line:1 char:1
++ flutter build apk -
+-no-tree-shake-icons 
+--split-per-abi 2>&1 
+| Out-Fi ...
++ ~~~~~~~~~~~~~~~~~~~
+~~~~~~~~~~~~~~~~~~~~~
+~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo   
+           : NotSpe  
+  cified: (Target    
+ dart_bui...d not    
+ be found.:Strin    
+g) [], RemoteExc    
+eption
+    + FullyQualified 
+   ErrorId : Native  
+  CommandError
+ 
+
+
+FAILURE: Build 
+failed with an 
+exception.
+
+* What went wrong:
+Execution failed for 
+task ':app:compileFlu
+tterBuildRelease'.
+> Process 'command 'C
+:\flutter\src\flutter
+\bin\flutter.bat'' 
+finished with 
+non-zero exit value 1
+
+* Try:
+> Run with 
+--stacktrace option 
+to get the stack 
+trace.
+> Run with --info or 
+--debug option to 
+get more log output.
+> Run with --scan to 
+get full insights.
+> Get more help at ht
+tps://help.gradle.org
+.
+
+BUILD FAILED in 9s
+Running Gradle task 'assembleRelease'...                            9.7s
+Gradle task 
+assembleRelease 
+failed with exit 
+code 1

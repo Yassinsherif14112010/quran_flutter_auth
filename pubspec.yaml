@@ -13,7 +13,7 @@ dependencies:
 
   cupertino_icons: ^1.0.8
   
-  # Database (تم إضافتها هنا بشكل صحيح)
+  # Database
   sqflite: ^2.3.0
   sqflite_common_ffi: ^2.3.0
   path: ^1.9.0
@@ -31,9 +31,9 @@ dependencies:
   hive: ^2.2.0
   hive_flutter: ^1.1.0
   
-  # Audio & Recording (تم توحيد الإصدارات)
+  # Audio & Recording
   audioplayers: ^6.0.0
-  record: ^5.1.0    # هذا الإصدار متوافق مع الكود الذي كتبناه (AudioRecorder)
+  record: ^5.1.2
   path_provider: ^2.1.2
   permission_handler: ^11.0.0
   audio_waveforms: ^1.0.0
@@ -61,11 +61,14 @@ dependencies:
   url_launcher: ^6.2.0
   
   # Notifications
-  flutter_local_notifications: ^16.0.0
+  flutter_local_notifications: ^18.0.0
   
   # Image Handling
   image_picker: ^1.0.0
   cached_network_image: ^3.3.0
+
+dependency_overrides:
+  record_linux: ^1.2.1
 
 dev_dependencies:
   flutter_test:
@@ -78,7 +81,6 @@ dev_dependencies:
 flutter:
   uses-material-design: true
 
-  # تأكد من وجود مجلد assets/fonts في مشروعك
   assets:
     - assets/fonts/
 

@@ -8,7 +8,6 @@ class Message {
   final DateTime timestamp;
   final bool isRead;
   final MessageType type;
-
   Message({
     required this.id,
     required this.senderId,

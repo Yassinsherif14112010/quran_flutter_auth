@@ -1,0 +1,304 @@
+Initialized native services in: C:\GradleCache\native
+Initialized jansi services in: C:\GradleCache\native
+Found daemon DaemonInfo{pid=2376, address=[e8942709-71d1-4164-8ac7-d209072d3fcd port:62405, addresses:[/127.0.0.1]], state=Idle, lastBusy=1765115952270, context=DefaultDaemonContext[uid=22ac208b-45a5-4f01-a492-22ffac0ac122,javaHome=C:\Program Files\Android\Android Studio\jbr,javaVersion=21,javaVendor=JetBrains s.r.o.,daemonRegistryDir=C:\GradleCache\daemon,pid=2376,idleTimeout=10800000,priority=NORMAL,applyInstrumentationAgent=true,nativeServicesMode=ENABLED,daemonOpts=-XX:MaxMetaspaceSize=4G,-XX:ReservedCodeCacheSize=512m,-XX:+HeapDumpOnOutOfMemoryError,-Xmx8G,-Dfile.encoding=UTF-8,-Duser.country=US,-Duser.language=en,-Duser.variant]} however its context does not match the desired criteria.
+JVM is incompatible.
+Wanted: DaemonRequestContext{jvmCriteria=C:\Program Files\Java\jdk-23 (no JDK specified, using current Java home), daemonOpts=[-XX:MaxMetaspaceSize=4G, -XX:ReservedCodeCacheSize=512m, -XX:+HeapDumpOnOutOfMemoryError, -Xmx8G, -Dfile.encoding=UTF-8, -Duser.country=US, -Duser.language=en, -Duser.variant], applyInstrumentationAgent=true, nativeServicesMode=ENABLED, priority=NORMAL}
+Actual: DefaultDaemonContext[uid=22ac208b-45a5-4f01-a492-22ffac0ac122,javaHome=C:\Program Files\Android\Android Studio\jbr,javaVersion=21,javaVendor=JetBrains s.r.o.,daemonRegistryDir=C:\GradleCache\daemon,pid=2376,idleTimeout=10800000,priority=NORMAL,applyInstrumentationAgent=true,nativeServicesMode=ENABLED,daemonOpts=-XX:MaxMetaspaceSize=4G,-XX:ReservedCodeCacheSize=512m,-XX:+HeapDumpOnOutOfMemoryError,-Xmx8G,-Dfile.encoding=UTF-8,-Duser.country=US,-Duser.language=en,-Duser.variant]
+
+  Looking for a different daemon...
+The client will now receive all logging from the daemon (pid: 15680). The daemon log file: C:\GradleCache\daemon\8.14\daemon-15680.out.log
+Starting 2nd build in daemon [uptime: 9 mins 42.601 secs, performance: 100%, GC rate: 0.00/s, heap usage: 0% of 8 GiB, non-heap usage: 4% of 4 GiB]
+Using 8 worker leases.
+Now considering [D:\freelance\quran_flutter_auth\android, C:\flutter\src\flutter\packages\flutter_tools\gradle] as hierarchies to watch
+Watching the file system is configured to be enabled if available
+File system watching is active
+Starting Build
+Now considering [C:\flutter\src\flutter\packages\flutter_tools\gradle, D:\freelance\quran_flutter_auth\android] as hierarchies to watch
+
+> Configure project :gradle
+Evaluating project ':gradle' using build file 'C:\flutter\src\flutter\packages\flutter_tools\gradle\build.gradle.kts'.
+Resolved plugin [id: 'org.gradle.java-gradle-plugin']
+Resolved plugin [id: 'org.gradle.groovy']
+Resolved plugin [id: 'org.gradle.kotlin.kotlin-dsl', version: '5.2.0']
+Resolved plugin [id: 'org.jetbrains.kotlin.jvm', version: '1.9.20']
+Using Kotlin Gradle Plugin gradle85 variant
+kotlin scripting plugin: created the scripting discovery configuration: kotlinScriptDef
+kotlin scripting plugin: created the scripting discovery configuration: testKotlinScriptDef
+file or directory 'C:\flutter\src\flutter\packages\flutter_tools\gradle\src\main\java', not found
+Resolved plugin [id: 'dev.flutter.flutter-plugin-loader', version: '1.0.0']
+Resolved plugin [id: 'com.android.application', version: '8.11.1', apply: false]
+Resolved plugin [id: 'org.jetbrains.kotlin.android', version: '2.2.20', apply: false]
+Resolve mutations for :gradle:checkKotlinGradlePluginConfigurationErrors (Thread[#200,Execution worker,5,main]) started.
+:gradle:checkKotlinGradlePluginConfigurationErrors (Thread[#199,included builds,5,main]) started.
+
+> Task :gradle:checkKotlinGradlePluginConfigurationErrors SKIPPED
+Skipping task ':gradle:checkKotlinGradlePluginConfigurationErrors' as task onlyIf 'errorDiagnostics are present' is false.
+Resolve mutations for :gradle:compileKotlin (Thread[#199,included builds,5,main]) started.
+:gradle:compileKotlin (Thread[#199,included builds,5,main]) started.
+
+> Task :gradle:compileKotlin UP-TO-DATE
+Caching disabled for task ':gradle:compileKotlin' because:
+  Build cache is disabled
+Skipping task ':gradle:compileKotlin' as it is up-to-date.
+Resolve mutations for :gradle:compileJava (Thread[#199,included builds,5,main]) started.
+:gradle:compileJava (Thread[#199,included builds,5,main]) started.
+
+> Task :gradle:compileJava NO-SOURCE
+Skipping task ':gradle:compileJava' as it has no source files and no previous output files.
+Resolve mutations for :gradle:compileGroovy (Thread[#199,included builds,5,main]) started.
+:gradle:compileGroovy (Thread[#199,included builds,5,main]) started.
+
+> Task :gradle:compileGroovy NO-SOURCE
+Skipping task ':gradle:compileGroovy' as it has no source files and no previous output files.
+Resolve mutations for :gradle:pluginDescriptors (Thread[#199,included builds,5,main]) started.
+:gradle:pluginDescriptors (Thread[#199,included builds,5,main]) started.
+
+> Task :gradle:pluginDescriptors UP-TO-DATE
+Caching disabled for task ':gradle:pluginDescriptors' because:
+  Build cache is disabled
+  Not worth caching
+Skipping task ':gradle:pluginDescriptors' as it is up-to-date.
+Resolve mutations for :gradle:processResources (Thread[#199,included builds,5,main]) started.
+:gradle:processResources (Thread[#199,included builds,5,main]) started.
+
+> Task :gradle:processResources UP-TO-DATE
+Caching disabled for task ':gradle:processResources' because:
+  Build cache is disabled
+  Not worth caching
+Skipping task ':gradle:processResources' as it is up-to-date.
+Resolve mutations for :gradle:classes (Thread[#199,included builds,5,main]) started.
+:gradle:classes (Thread[#199,included builds,5,main]) started.
+
+> Task :gradle:classes UP-TO-DATE
+Skipping task ':gradle:classes' as it has no actions.
+Resolve mutations for :gradle:jar (Thread[#199,included builds,5,main]) started.
+:gradle:jar (Thread[#199,included builds,5,main]) started.
+
+> Task :gradle:jar UP-TO-DATE
+Caching disabled for task ':gradle:jar' because:
+  Build cache is disabled
+  Not worth caching
+Skipping task ':gradle:jar' as it is up-to-date.
+Settings evaluated using settings file 'D:\freelance\quran_flutter_auth\android\settings.gradle.kts'.
+Projects loaded. Root project using build file 'D:\freelance\quran_flutter_auth\android\build.gradle.kts'.
+Included projects: [root project 'android', project ':app', project ':audio_session', project ':audio_waveforms', project ':audioplayers_android', project ':flutter_local_notifications', project ':flutter_plugin_android_lifecycle', project ':image_picker_android', project ':just_audio', project ':path_provider_android', project ':permission_handler_android', project ':record_android', project ':shared_preferences_android', project ':sqflite_android', project ':url_launcher_android']
+
+> Configure project :app
+Evaluating project ':app' using build file 'D:\freelance\quran_flutter_auth\android\app\build.gradle.kts'.
+Resolved plugin [id: 'com.android.application']
+Resolved plugin [id: 'kotlin-android']
+Resolved plugin [id: 'dev.flutter.flutter-gradle-plugin']
+Using default execution profile
+Build 1e733ce0-0086-4d1f-8d9d-c9f437695043 is started
+Using Kotlin Gradle Plugin gradle813 variant
+C/C++: android.ndkVersion from module build.gradle is [27.0.12077973]
+C/C++: android.ndkPath from module build.gradle is not set
+C/C++: ndk.dir in local.properties is not set
+C/C++: Not considering ANDROID_NDK_HOME because support was removed after deprecation period.
+C/C++: sdkFolder is C:\Android\Sdk
+C/C++: android.ndkVersion from module build.gradle is [27.0.12077973]
+C/C++: android.ndkPath from module build.gradle is not set
+C/C++: ndk.dir in local.properties is not set
+C/C++: Not considering ANDROID_NDK_HOME because support was removed after deprecation period.
+C/C++: sdkFolder is C:\Android\Sdk
+C/C++: android.ndkVersion from module build.gradle is [27.0.12077973]
+C/C++: android.ndkPath from module build.gradle is not set
+C/C++: ndk.dir in local.properties is not set
+C/C++: Not considering ANDROID_NDK_HOME because support was removed after deprecation period.
+C/C++: sdkFolder is C:\Android\Sdk
+C/C++: android.ndkVersion from module build.gradle is [27.0.12077973]
+C/C++: android.ndkPath from module build.gradle is not set
+C/C++: ndk.dir in local.properties is not set
+C/C++: Not considering ANDROID_NDK_HOME because support was removed after deprecation period.
+C/C++: sdkFolder is C:\Android\Sdk
+C/C++: android.ndkVersion from module build.gradle is [27.0.12077973]
+C/C++: android.ndkPath from module build.gradle is not set
+C/C++: ndk.dir in local.properties is not set
+C/C++: Not considering ANDROID_NDK_HOME because support was removed after deprecation period.
+C/C++: sdkFolder is C:\Android\Sdk
+C/C++: android.ndkVersion from module build.gradle is [27.0.12077973]
+C/C++: android.ndkPath from module build.gradle is not set
+C/C++: ndk.dir in local.properties is not set
+C/C++: Not considering ANDROID_NDK_HOME because support was removed after deprecation period.
+C/C++: sdkFolder is C:\Android\Sdk
+C/C++: android.ndkVersion from module build.gradle is [27.0.12077973]
+C/C++: android.ndkPath from module build.gradle is not set
+C/C++: ndk.dir in local.properties is not set
+C/C++: Not considering ANDROID_NDK_HOME because support was removed after deprecation period.
+C/C++: sdkFolder is C:\Android\Sdk
+C/C++: android.ndkVersion from module build.gradle is [27.0.12077973]
+C/C++: android.ndkPath from module build.gradle is not set
+C/C++: ndk.dir in local.properties is not set
+C/C++: Not considering ANDROID_NDK_HOME because support was removed after deprecation period.
+C/C++: sdkFolder is C:\Android\Sdk
+C/C++: android.ndkVersion from module build.gradle is [27.0.12077973]
+C/C++: android.ndkPath from module build.gradle is not set
+C/C++: ndk.dir in local.properties is not set
+C/C++: Not considering ANDROID_NDK_HOME because support was removed after deprecation period.
+C/C++: sdkFolder is C:\Android\Sdk
+C/C++: android.ndkVersion from module build.gradle is [27.0.12077973]
+C/C++: android.ndkPath from module build.gradle is not set
+C/C++: ndk.dir in local.properties is not set
+C/C++: Not considering ANDROID_NDK_HOME because support was removed after deprecation period.
+C/C++: sdkFolder is C:\Android\Sdk
+C/C++: android.ndkVersion from module build.gradle is [27.0.12077973]
+C/C++: android.ndkPath from module build.gradle is not set
+C/C++: ndk.dir in local.properties is not set
+C/C++: Not considering ANDROID_NDK_HOME because support was removed after deprecation period.
+C/C++: sdkFolder is C:\Android\Sdk
+C/C++: android.ndkVersion from module build.gradle is [27.0.12077973]
+C/C++: android.ndkPath from module build.gradle is not set
+C/C++: ndk.dir in local.properties is not set
+C/C++: Not considering ANDROID_NDK_HOME because support was removed after deprecation period.
+C/C++: sdkFolder is C:\Android\Sdk
+C/C++: android.ndkVersion from module build.gradle is [27.0.12077973]
+C/C++: android.ndkPath from module build.gradle is not set
+C/C++: ndk.dir in local.properties is not set
+C/C++: Not considering ANDROID_NDK_HOME because support was removed after deprecation period.
+C/C++: sdkFolder is C:\Android\Sdk
+C/C++: android.ndkVersion from module build.gradle is [27.0.12077973]
+C/C++: android.ndkPath from module build.gradle is not set
+C/C++: ndk.dir in local.properties is not set
+C/C++: Not considering ANDROID_NDK_HOME because support was removed after deprecation period.
+C/C++: sdkFolder is C:\Android\Sdk
+C/C++: android.ndkVersion from module build.gradle is [27.0.12077973]
+C/C++: android.ndkPath from module build.gradle is not set
+C/C++: ndk.dir in local.properties is not set
+C/C++: Not considering ANDROID_NDK_HOME because support was removed after deprecation period.
+C/C++: sdkFolder is C:\Android\Sdk
+C/C++: android.ndkVersion from module build.gradle is [27.0.12077973]
+C/C++: android.ndkPath from module build.gradle is not set
+C/C++: ndk.dir in local.properties is not set
+C/C++: Not considering ANDROID_NDK_HOME because support was removed after deprecation period.
+C/C++: sdkFolder is C:\Android\Sdk
+C/C++: android.ndkVersion from module build.gradle is [27.0.12077973]
+C/C++: android.ndkPath from module build.gradle is not set
+C/C++: ndk.dir in local.properties is not set
+C/C++: Not considering ANDROID_NDK_HOME because support was removed after deprecation period.
+C/C++: sdkFolder is C:\Android\Sdk
+C/C++: android.ndkVersion from module build.gradle is [27.0.12077973]
+C/C++: android.ndkPath from module build.gradle is not set
+C/C++: ndk.dir in local.properties is not set
+C/C++: Not considering ANDROID_NDK_HOME because support was removed after deprecation period.
+C/C++: sdkFolder is C:\Android\Sdk
+C/C++: android.ndkVersion from module build.gradle is [27.0.12077973]
+C/C++: android.ndkPath from module build.gradle is not set
+C/C++: ndk.dir in local.properties is not set
+C/C++: Not considering ANDROID_NDK_HOME because support was removed after deprecation period.
+C/C++: sdkFolder is C:\Android\Sdk
+
+> Configure project :
+Evaluating root project 'android' using build file 'D:\freelance\quran_flutter_auth\android\build.gradle.kts'.
+
+> Configure project :audio_session
+Evaluating project ':audio_session' using build file 'C:\Users\Pure soft\AppData\Local\Pub\Cache\hosted\pub.dev\audio_session-0.1.25\android\build.gradle'.
+Using default execution profile
+
+> Configure project :audio_waveforms
+Evaluating project ':audio_waveforms' using build file 'C:\Users\Pure soft\AppData\Local\Pub\Cache\hosted\pub.dev\audio_waveforms-1.3.0\android\build.gradle'.
+Using default execution profile
+Using Kotlin Gradle Plugin gradle813 variant
+
+> Configure project :audioplayers_android
+Evaluating project ':audioplayers_android' using build file 'C:\Users\Pure soft\AppData\Local\Pub\Cache\hosted\pub.dev\audioplayers_android-5.2.1\android\build.gradle'.
+Using default execution profile
+Using Kotlin Gradle Plugin gradle813 variant
+
+> Configure project :flutter_local_notifications
+Evaluating project ':flutter_local_notifications' using build file 'C:\Users\Pure soft\AppData\Local\Pub\Cache\hosted\pub.dev\flutter_local_notifications-16.3.3\android\build.gradle'.
+Using default execution profile
+
+> Configure project :flutter_plugin_android_lifecycle
+Evaluating project ':flutter_plugin_android_lifecycle' using build file 'C:\Users\Pure soft\AppData\Local\Pub\Cache\hosted\pub.dev\flutter_plugin_android_lifecycle-2.0.33\android\build.gradle'.
+Using default execution profile
+
+> Configure project :image_picker_android
+Evaluating project ':image_picker_android' using build file 'C:\Users\Pure soft\AppData\Local\Pub\Cache\hosted\pub.dev\image_picker_android-0.8.13+10\android\build.gradle'.
+Using default execution profile
+
+> Configure project :just_audio
+Evaluating project ':just_audio' using build file 'C:\Users\Pure soft\AppData\Local\Pub\Cache\hosted\pub.dev\just_audio-0.9.46\android\build.gradle'.
+Using default execution profile
+
+> Configure project :path_provider_android
+Evaluating project ':path_provider_android' using build file 'C:\Users\Pure soft\AppData\Local\Pub\Cache\hosted\pub.dev\path_provider_android-2.2.21\android\build.gradle'.
+Using default execution profile
+
+> Configure project :permission_handler_android
+Evaluating project ':permission_handler_android' using build file 'C:\Users\Pure soft\AppData\Local\Pub\Cache\hosted\pub.dev\permission_handler_android-12.1.0\android\build.gradle'.
+Using default execution profile
+
+> Configure project :record_android
+Evaluating project ':record_android' using build file 'C:\Users\Pure soft\AppData\Local\Pub\Cache\hosted\pub.dev\record_android-1.4.5\android\build.gradle'.
+Using default execution profile
+Using Kotlin Gradle Plugin gradle813 variant
+
+> Configure project :shared_preferences_android
+Evaluating project ':shared_preferences_android' using build file 'C:\Users\Pure soft\AppData\Local\Pub\Cache\hosted\pub.dev\shared_preferences_android-2.4.18\android\build.gradle'.
+Using default execution profile
+Using Kotlin Gradle Plugin gradle813 variant
+
+> Configure project :sqflite_android
+Evaluating project ':sqflite_android' using build file 'C:\Users\Pure soft\AppData\Local\Pub\Cache\hosted\pub.dev\sqflite_android-2.4.2+2\android\build.gradle'.
+Using default execution profile
+
+> Configure project :url_launcher_android
+Evaluating project ':url_launcher_android' using build file 'C:\Users\Pure soft\AppData\Local\Pub\Cache\hosted\pub.dev\url_launcher_android-6.3.28\android\build.gradle'.
+Using default execution profile
+All projects evaluated.
+Task name matched 'assembleRelease'
+Selected primary task 'assembleRelease' from project :
+Tasks to be executed: [task ':app:ReleaseMinSdkCheck', task ':app:compileFlutterBuildRelease', task ':app:packJniLibsflutterBuildRelease', task ':app:preBuild', task ':app:preReleaseBuild', task ':app:configureCMakeRelease[arm64-v8a]', task ':app:buildCMakeRelease[arm64-v8a]', task ':app:configureCMakeRelease[armeabi-v7a]', task ':app:buildCMakeRelease[armeabi-v7a]', task ':app:configureCMakeRelease[x86_64]', task ':app:buildCMakeRelease[x86_64]', task ':app:mergeReleaseJniLibFolders', task ':audio_session:preBuild', task ':audio_session:preReleaseBuild', task ':audio_session:mergeReleaseJniLibFolders', task ':audio_session:mergeReleaseNativeLibs', task ':audio_session:copyReleaseJniLibsProjectOnly', task ':audio_waveforms:preBuild', task ':audio_waveforms:preReleaseBuild', task ':audio_waveforms:mergeReleaseJniLibFolders', task ':audio_waveforms:mergeReleaseNativeLibs', task ':audio_waveforms:copyReleaseJniLibsProjectOnly', task ':audioplayers_android:preBuild', task ':audioplayers_android:preReleaseBuild', task ':audioplayers_android:mergeReleaseJniLibFolders', task ':audioplayers_android:mergeReleaseNativeLibs', task ':audioplayers_android:copyReleaseJniLibsProjectOnly', task ':flutter_local_notifications:preBuild', task ':flutter_local_notifications:preReleaseBuild', task ':flutter_local_notifications:mergeReleaseJniLibFolders', task ':flutter_local_notifications:mergeReleaseNativeLibs', task ':flutter_local_notifications:copyReleaseJniLibsProjectOnly', task ':flutter_plugin_android_lifecycle:preBuild', task ':flutter_plugin_android_lifecycle:preReleaseBuild', task ':flutter_plugin_android_lifecycle:mergeReleaseJniLibFolders', task ':flutter_plugin_android_lifecycle:mergeReleaseNativeLibs', task ':flutter_plugin_android_lifecycle:copyReleaseJniLibsProjectOnly', task ':image_picker_android:preBuild', task ':image_picker_android:preReleaseBuild', task ':image_picker_android:mergeReleaseJniLibFolders', task ':image_picker_android:mergeReleaseNativeLibs', task ':image_picker_android:copyReleaseJniLibsProjectOnly', task ':just_audio:preBuild', task ':just_audio:preReleaseBuild', task ':just_audio:mergeReleaseJniLibFolders', task ':just_audio:mergeReleaseNativeLibs', task ':just_audio:copyReleaseJniLibsProjectOnly', task ':path_provider_android:preBuild', task ':path_provider_android:preReleaseBuild', task ':path_provider_android:mergeReleaseJniLibFolders', task ':path_provider_android:mergeReleaseNativeLibs', task ':path_provider_android:copyReleaseJniLibsProjectOnly', task ':permission_handler_android:preBuild', task ':permission_handler_android:preReleaseBuild', task ':permission_handler_android:mergeReleaseJniLibFolders', task ':permission_handler_android:mergeReleaseNativeLibs', task ':permission_handler_android:copyReleaseJniLibsProjectOnly', task ':record_android:preBuild', task ':record_android:preReleaseBuild', task ':record_android:mergeReleaseJniLibFolders', task ':record_android:mergeReleaseNativeLibs', task ':record_android:copyReleaseJniLibsProjectOnly', task ':shared_preferences_android:preBuild', task ':shared_preferences_android:preReleaseBuild', task ':shared_preferences_android:mergeReleaseJniLibFolders', task ':shared_preferences_android:mergeReleaseNativeLibs', task ':shared_preferences_android:copyReleaseJniLibsProjectOnly', task ':sqflite_android:preBuild', task ':sqflite_android:preReleaseBuild', task ':sqflite_android:mergeReleaseJniLibFolders', task ':sqflite_android:mergeReleaseNativeLibs', task ':sqflite_android:copyReleaseJniLibsProjectOnly', task ':url_launcher_android:preBuild', task ':url_launcher_android:preReleaseBuild', task ':url_launcher_android:mergeReleaseJniLibFolders', task ':url_launcher_android:mergeReleaseNativeLibs', task ':url_launcher_android:copyReleaseJniLibsProjectOnly', task ':app:mergeReleaseNativeLibs', task ':app:stripReleaseDebugSymbols', task ':app:extractReleaseNativeSymbolTables', task ':app:mergeReleaseNativeDebugMetadata', task ':audio_session:generateReleaseResValues', task ':audio_session:generateReleaseResources', task ':audio_session:packageReleaseResources', task ':audio_session:parseReleaseLocalResources', task ':audio_session:generateReleaseRFile', task ':audio_session:javaPreCompileRelease', task ':audio_session:compileReleaseJavaWithJavac', task ':audio_session:bundleLibCompileToJarRelease', task ':just_audio:generateReleaseResValues', task ':just_audio:generateReleaseResources', task ':just_audio:packageReleaseResources', task ':just_audio:parseReleaseLocalResources', task ':just_audio:generateReleaseRFile', task ':just_audio:javaPreCompileRelease', task ':just_audio:compileReleaseJavaWithJavac', task ':just_audio:mergeReleaseGeneratedProguardFiles', task ':just_audio:exportReleaseConsumerProguardFiles', task ':audio_session:mergeReleaseGeneratedProguardFiles', task ':audio_session:exportReleaseConsumerProguardFiles', task ':audio_waveforms:checkKotlinGradlePluginConfigurationErrors', task ':audio_waveforms:generateReleaseResValues', task ':audio_waveforms:generateReleaseResources', task ':audio_waveforms:packageReleaseResources', task ':audio_waveforms:parseReleaseLocalResources', task ':audio_waveforms:generateReleaseRFile', task ':audio_waveforms:compileReleaseKotlin', task ':audio_waveforms:javaPreCompileRelease', task ':audio_waveforms:compileReleaseJavaWithJavac', task ':audio_waveforms:mergeReleaseGeneratedProguardFiles', task ':audio_waveforms:exportReleaseConsumerProguardFiles', task ':audioplayers_android:checkKotlinGradlePluginConfigurationErrors', task ':audioplayers_android:generateReleaseResValues', task ':audioplayers_android:generateReleaseResources', task ':audioplayers_android:packageReleaseResources', task ':audioplayers_android:parseReleaseLocalResources', task ':audioplayers_android:generateReleaseRFile', task ':audioplayers_android:compileReleaseKotlin', task ':audioplayers_android:javaPreCompileRelease', task ':audioplayers_android:compileReleaseJavaWithJavac', task ':audioplayers_android:mergeReleaseGeneratedProguardFiles', task ':audioplayers_android:exportReleaseConsumerProguardFiles', task ':flutter_local_notifications:generateReleaseResValues', task ':flutter_local_notifications:generateReleaseResources', task ':flutter_local_notifications:packageReleaseResources', task ':flutter_local_notifications:parseReleaseLocalResources', task ':flutter_local_notifications:generateReleaseRFile', task ':flutter_local_notifications:javaPreCompileRelease', task ':flutter_local_notifications:compileReleaseJavaWithJavac', task ':flutter_local_notifications:mergeReleaseGeneratedProguardFiles', task ':flutter_local_notifications:exportReleaseConsumerProguardFiles', task ':flutter_plugin_android_lifecycle:generateReleaseResValues', task ':flutter_plugin_android_lifecycle:generateReleaseResources', task ':flutter_plugin_android_lifecycle:packageReleaseResources', task ':flutter_plugin_android_lifecycle:parseReleaseLocalResources', task ':flutter_plugin_android_lifecycle:generateReleaseRFile', task ':flutter_plugin_android_lifecycle:javaPreCompileRelease', task ':flutter_plugin_android_lifecycle:compileReleaseJavaWithJavac', task ':flutter_plugin_android_lifecycle:bundleLibCompileToJarRelease', task ':image_picker_android:generateReleaseResValues', task ':image_picker_android:generateReleaseResources', task ':image_picker_android:packageReleaseResources', task ':image_picker_android:parseReleaseLocalResources', task ':image_picker_android:generateReleaseRFile', task ':image_picker_android:javaPreCompileRelease', task ':image_picker_android:compileReleaseJavaWithJavac', task ':image_picker_android:mergeReleaseGeneratedProguardFiles', task ':image_picker_android:exportReleaseConsumerProguardFiles', task ':flutter_plugin_android_lifecycle:mergeReleaseGeneratedProguardFiles', task ':flutter_plugin_android_lifecycle:exportReleaseConsumerProguardFiles', task ':path_provider_android:generateReleaseResValues', task ':path_provider_android:generateReleaseResources', task ':path_provider_android:packageReleaseResources', task ':path_provider_android:parseReleaseLocalResources', task ':path_provider_android:generateReleaseRFile', task ':path_provider_android:javaPreCompileRelease', task ':path_provider_android:compileReleaseJavaWithJavac', task ':path_provider_android:mergeReleaseGeneratedProguardFiles', task ':path_provider_android:exportReleaseConsumerProguardFiles', task ':permission_handler_android:generateReleaseResValues', task ':permission_handler_android:generateReleaseResources', task ':permission_handler_android:packageReleaseResources', task ':permission_handler_android:parseReleaseLocalResources', task ':permission_handler_android:generateReleaseRFile', task ':permission_handler_android:javaPreCompileRelease', task ':permission_handler_android:compileReleaseJavaWithJavac', task ':permission_handler_android:mergeReleaseGeneratedProguardFiles', task ':permission_handler_android:exportReleaseConsumerProguardFiles', task ':record_android:checkKotlinGradlePluginConfigurationErrors', task ':record_android:generateReleaseResValues', task ':record_android:generateReleaseResources', task ':record_android:packageReleaseResources', task ':record_android:parseReleaseLocalResources', task ':record_android:generateReleaseRFile', task ':record_android:compileReleaseKotlin', task ':record_android:javaPreCompileRelease', task ':record_android:compileReleaseJavaWithJavac', task ':record_android:mergeReleaseGeneratedProguardFiles', task ':record_android:exportReleaseConsumerProguardFiles', task ':shared_preferences_android:checkKotlinGradlePluginConfigurationErrors', task ':shared_preferences_android:generateReleaseResValues', task ':shared_preferences_android:generateReleaseResources', task ':shared_preferences_android:packageReleaseResources', task ':shared_preferences_android:parseReleaseLocalResources', task ':shared_preferences_android:generateReleaseRFile', task ':shared_preferences_android:compileReleaseKotlin', task ':shared_preferences_android:javaPreCompileRelease', task ':shared_preferences_android:compileReleaseJavaWithJavac', task ':shared_preferences_android:mergeReleaseGeneratedProguardFiles', task ':shared_preferences_android:exportReleaseConsumerProguardFiles', task ':sqflite_android:generateReleaseResValues', task ':sqflite_android:generateReleaseResources', task ':sqflite_android:packageReleaseResources', task ':sqflite_android:parseReleaseLocalResources', task ':sqflite_android:generateReleaseRFile', task ':sqflite_android:javaPreCompileRelease', task ':sqflite_android:compileReleaseJavaWithJavac', task ':sqflite_android:mergeReleaseGeneratedProguardFiles', task ':sqflite_android:exportReleaseConsumerProguardFiles', task ':url_launcher_android:generateReleaseBuildConfig', task ':url_launcher_android:generateReleaseResValues', task ':url_launcher_android:generateReleaseResources', task ':url_launcher_android:packageReleaseResources', task ':url_launcher_android:parseReleaseLocalResources', task ':url_launcher_android:generateReleaseRFile', task ':url_launcher_android:javaPreCompileRelease', task ':url_launcher_android:compileReleaseJavaWithJavac', task ':url_launcher_android:mergeReleaseGeneratedProguardFiles', task ':url_launcher_android:exportReleaseConsumerProguardFiles', task ':app:buildKotlinToolingMetadata', task ':app:checkReleaseDuplicateClasses', task ':app:checkKotlinGradlePluginConfigurationErrors', task ':audio_session:writeReleaseAarMetadata', task ':audio_waveforms:writeReleaseAarMetadata', task ':audioplayers_android:writeReleaseAarMetadata', task ':flutter_local_notifications:writeReleaseAarMetadata', task ':flutter_plugin_android_lifecycle:writeReleaseAarMetadata', task ':image_picker_android:writeReleaseAarMetadata', task ':just_audio:writeReleaseAarMetadata', task ':path_provider_android:writeReleaseAarMetadata', task ':permission_handler_android:writeReleaseAarMetadata', task ':record_android:writeReleaseAarMetadata', task ':shared_preferences_android:writeReleaseAarMetadata', task ':sqflite_android:writeReleaseAarMetadata', task ':url_launcher_android:writeReleaseAarMetadata', task ':app:checkReleaseAarMetadata', task ':app:cleanMergeReleaseAssets', task ':app:mergeReleaseShaders', task ':app:compileReleaseShaders', task ':app:generateReleaseAssets', task ':audio_session:mergeReleaseShaders', task ':audio_session:compileReleaseShaders', task ':audio_session:generateReleaseAssets', task ':audio_session:mergeReleaseAssets', task ':audio_waveforms:mergeReleaseShaders', task ':audio_waveforms:compileReleaseShaders', task ':audio_waveforms:generateReleaseAssets', task ':audio_waveforms:mergeReleaseAssets', task ':audioplayers_android:mergeReleaseShaders', task ':audioplayers_android:compileReleaseShaders', task ':audioplayers_android:generateReleaseAssets', task ':audioplayers_android:mergeReleaseAssets', task ':flutter_local_notifications:mergeReleaseShaders', task ':flutter_local_notifications:compileReleaseShaders', task ':flutter_local_notifications:generateReleaseAssets', task ':flutter_local_notifications:mergeReleaseAssets', task ':flutter_plugin_android_lifecycle:mergeReleaseShaders', task ':flutter_plugin_android_lifecycle:compileReleaseShaders', task ':flutter_plugin_android_lifecycle:generateReleaseAssets', task ':flutter_plugin_android_lifecycle:mergeReleaseAssets', task ':image_picker_android:mergeReleaseShaders', task ':image_picker_android:compileReleaseShaders', task ':image_picker_android:generateReleaseAssets', task ':image_picker_android:mergeReleaseAssets', task ':just_audio:mergeReleaseShaders', task ':just_audio:compileReleaseShaders', task ':just_audio:generateReleaseAssets', task ':just_audio:mergeReleaseAssets', task ':path_provider_android:mergeReleaseShaders', task ':path_provider_android:compileReleaseShaders', task ':path_provider_android:generateReleaseAssets', task ':path_provider_android:mergeReleaseAssets', task ':permission_handler_android:mergeReleaseShaders', task ':permission_handler_android:compileReleaseShaders', task ':permission_handler_android:generateReleaseAssets', task ':permission_handler_android:mergeReleaseAssets', task ':record_android:mergeReleaseShaders', task ':record_android:compileReleaseShaders', task ':record_android:generateReleaseAssets', task ':record_android:mergeReleaseAssets', task ':shared_preferences_android:mergeReleaseShaders', task ':shared_preferences_android:compileReleaseShaders', task ':shared_preferences_android:generateReleaseAssets', task ':shared_preferences_android:mergeReleaseAssets', task ':sqflite_android:mergeReleaseShaders', task ':sqflite_android:compileReleaseShaders', task ':sqflite_android:generateReleaseAssets', task ':sqflite_android:mergeReleaseAssets', task ':url_launcher_android:mergeReleaseShaders', task ':url_launcher_android:compileReleaseShaders', task ':url_launcher_android:generateReleaseAssets', task ':url_launcher_android:mergeReleaseAssets', task ':app:mergeReleaseAssets', task ':app:copyFlutterAssetsRelease', task ':app:generateReleaseResValues', task ':app:mapReleaseSourceSetPaths', task ':app:generateReleaseResources', task ':app:mergeReleaseResources', task ':app:packageReleaseResources', task ':app:parseReleaseLocalResources', task ':app:createReleaseCompatibleScreenManifests', task ':app:extractDeepLinksRelease', task ':audio_session:extractDeepLinksRelease', task ':audio_session:processReleaseManifest', task ':audio_waveforms:extractDeepLinksRelease', task ':audio_waveforms:processReleaseManifest', task ':audioplayers_android:extractDeepLinksRelease', task ':audioplayers_android:processReleaseManifest', task ':flutter_local_notifications:extractDeepLinksRelease', task ':flutter_local_notifications:processReleaseManifest', task ':flutter_plugin_android_lifecycle:extractDeepLinksRelease', task ':flutter_plugin_android_lifecycle:processReleaseManifest', task ':image_picker_android:extractDeepLinksRelease', task ':image_picker_android:processReleaseManifest', task ':just_audio:extractDeepLinksRelease', task ':just_audio:processReleaseManifest', task ':path_provider_android:extractDeepLinksRelease', task ':path_provider_android:processReleaseManifest', task ':permission_handler_android:extractDeepLinksRelease', task ':permission_handler_android:processReleaseManifest', task ':record_android:extractDeepLinksRelease', task ':record_android:processReleaseManifest', task ':shared_preferences_android:extractDeepLinksRelease', task ':shared_preferences_android:processReleaseManifest', task ':sqflite_android:extractDeepLinksRelease', task ':sqflite_android:processReleaseManifest', task ':url_launcher_android:extractDeepLinksRelease', task ':url_launcher_android:processReleaseManifest', task ':app:processReleaseMainManifest', task ':app:outputReleaseAppLinkSettings', task ':app:processReleaseManifest', task ':app:processReleaseManifestForPackage', task ':app:processReleaseResources', task ':audio_waveforms:bundleLibCompileToJarRelease', task ':audioplayers_android:bundleLibCompileToJarRelease', task ':flutter_local_notifications:bundleLibCompileToJarRelease', task ':image_picker_android:bundleLibCompileToJarRelease', task ':just_audio:bundleLibCompileToJarRelease', task ':path_provider_android:bundleLibCompileToJarRelease', task ':permission_handler_android:bundleLibCompileToJarRelease', task ':record_android:bundleLibCompileToJarRelease', task ':shared_preferences_android:bundleLibCompileToJarRelease', task ':sqflite_android:bundleLibCompileToJarRelease', task ':url_launcher_android:bundleLibCompileToJarRelease', task ':app:compileReleaseKotlin', task ':app:javaPreCompileRelease', task ':app:compileReleaseJavaWithJavac', task ':audio_session:prepareReleaseArtProfile', task ':audio_waveforms:prepareReleaseArtProfile', task ':audioplayers_android:prepareReleaseArtProfile', task ':flutter_local_notifications:prepareReleaseArtProfile', task ':flutter_plugin_android_lifecycle:prepareReleaseArtProfile', task ':image_picker_android:prepareReleaseArtProfile', task ':just_audio:prepareReleaseArtProfile', task ':path_provider_android:prepareReleaseArtProfile', task ':permission_handler_android:prepareReleaseArtProfile', task ':record_android:prepareReleaseArtProfile', task ':shared_preferences_android:prepareReleaseArtProfile', task ':sqflite_android:prepareReleaseArtProfile', task ':url_launcher_android:prepareReleaseArtProfile', task ':app:mergeReleaseArtProfile', task ':audio_session:bundleLibRuntimeToJarRelease', task ':audio_waveforms:bundleLibRuntimeToJarRelease', task ':audioplayers_android:bundleLibRuntimeToJarRelease', task ':flutter_local_notifications:bundleLibRuntimeToJarRelease', task ':flutter_plugin_android_lifecycle:bundleLibRuntimeToJarRelease', task ':image_picker_android:bundleLibRuntimeToJarRelease', task ':just_audio:bundleLibRuntimeToJarRelease', task ':path_provider_android:bundleLibRuntimeToJarRelease', task ':permission_handler_android:bundleLibRuntimeToJarRelease', task ':record_android:bundleLibRuntimeToJarRelease', task ':shared_preferences_android:bundleLibRuntimeToJarRelease', task ':sqflite_android:bundleLibRuntimeToJarRelease', task ':url_launcher_android:bundleLibRuntimeToJarRelease', task ':app:expandReleaseArtProfileWildcards', task ':app:extractProguardFiles', task ':app:mergeReleaseGeneratedProguardFiles', task ':app:processReleaseJavaRes', task ':audio_session:processReleaseJavaRes', task ':audio_waveforms:processReleaseJavaRes', task ':audioplayers_android:processReleaseJavaRes', task ':flutter_local_notifications:processReleaseJavaRes', task ':flutter_plugin_android_lifecycle:processReleaseJavaRes', task ':image_picker_android:processReleaseJavaRes', task ':just_audio:processReleaseJavaRes', task ':path_provider_android:processReleaseJavaRes', task ':permission_handler_android:processReleaseJavaRes', task ':record_android:processReleaseJavaRes', task ':shared_preferences_android:processReleaseJavaRes', task ':sqflite_android:processReleaseJavaRes', task ':url_launcher_android:processReleaseJavaRes', task ':app:mergeReleaseJavaResource', task ':app:mergeReleaseStartupProfile', task ':app:minifyReleaseWithR8', task ':app:compileReleaseArtProfile', task ':app:compressReleaseAssets', task ':app:extractReleaseVersionControlInfo', task ':audio_session:createFullJarRelease', task ':audio_session:extractProguardFiles', task ':audio_session:generateReleaseLintModel', task ':audio_session:prepareLintJarForPublish', task ':audio_waveforms:createFullJarRelease', task ':audio_waveforms:extractProguardFiles', task ':audio_waveforms:generateReleaseLintModel', task ':audio_waveforms:prepareLintJarForPublish', task ':audioplayers_android:createFullJarRelease', task ':audioplayers_android:extractProguardFiles', task ':audioplayers_android:generateReleaseLintModel', task ':audioplayers_android:prepareLintJarForPublish', task ':flutter_local_notifications:createFullJarRelease', task ':flutter_local_notifications:extractProguardFiles', task ':flutter_local_notifications:generateReleaseLintModel', task ':flutter_local_notifications:prepareLintJarForPublish', task ':flutter_plugin_android_lifecycle:createFullJarRelease', task ':flutter_plugin_android_lifecycle:extractProguardFiles', task ':flutter_plugin_android_lifecycle:generateReleaseLintModel', task ':flutter_plugin_android_lifecycle:prepareLintJarForPublish', task ':image_picker_android:createFullJarRelease', task ':image_picker_android:extractProguardFiles', task ':image_picker_android:generateReleaseLintModel', task ':image_picker_android:prepareLintJarForPublish', task ':just_audio:createFullJarRelease', task ':just_audio:extractProguardFiles', task ':just_audio:generateReleaseLintModel', task ':just_audio:prepareLintJarForPublish', task ':path_provider_android:createFullJarRelease', task ':path_provider_android:extractProguardFiles', task ':path_provider_android:generateReleaseLintModel', task ':path_provider_android:prepareLintJarForPublish', task ':permission_handler_android:createFullJarRelease', task ':permission_handler_android:extractProguardFiles', task ':permission_handler_android:generateReleaseLintModel', task ':permission_handler_android:prepareLintJarForPublish', task ':record_android:createFullJarRelease', task ':record_android:extractProguardFiles', task ':record_android:generateReleaseLintModel', task ':record_android:prepareLintJarForPublish', task ':shared_preferences_android:createFullJarRelease', task ':shared_preferences_android:extractProguardFiles', task ':shared_preferences_android:generateReleaseLintModel', task ':shared_preferences_android:prepareLintJarForPublish', task ':sqflite_android:createFullJarRelease', task ':sqflite_android:extractProguardFiles', task ':sqflite_android:generateReleaseLintModel', task ':sqflite_android:prepareLintJarForPublish', task ':url_launcher_android:createFullJarRelease', task ':url_launcher_android:extractProguardFiles', task ':url_launcher_android:generateReleaseLintModel', task ':url_launcher_android:prepareLintJarForPublish', task ':app:generateReleaseLintVitalReportModel', task ':just_audio:stripReleaseDebugSymbols', task ':just_audio:copyReleaseJniLibsProjectAndLocalJars', task ':just_audio:extractDeepLinksForAarRelease', task ':just_audio:extractReleaseAnnotations', task ':just_audio:mergeReleaseConsumerProguardFiles', task ':just_audio:mergeReleaseJavaResource', task ':just_audio:syncReleaseLibJars', task ':just_audio:bundleReleaseLocalLintAar', task ':audio_session:stripReleaseDebugSymbols', task ':audio_session:copyReleaseJniLibsProjectAndLocalJars', task ':audio_session:extractDeepLinksForAarRelease', task ':audio_session:extractReleaseAnnotations', task ':audio_session:mergeReleaseConsumerProguardFiles', task ':audio_session:mergeReleaseJavaResource', task ':audio_session:syncReleaseLibJars', task ':audio_session:bundleReleaseLocalLintAar', task ':audio_waveforms:stripReleaseDebugSymbols', task ':audio_waveforms:copyReleaseJniLibsProjectAndLocalJars', task ':audio_waveforms:extractDeepLinksForAarRelease', task ':audio_waveforms:extractReleaseAnnotations', task ':audio_waveforms:mergeReleaseConsumerProguardFiles', task ':audio_waveforms:mergeReleaseJavaResource', task ':audio_waveforms:syncReleaseLibJars', task ':audio_waveforms:bundleReleaseLocalLintAar', task ':audioplayers_android:stripReleaseDebugSymbols', task ':audioplayers_android:copyReleaseJniLibsProjectAndLocalJars', task ':audioplayers_android:extractDeepLinksForAarRelease', task ':audioplayers_android:extractReleaseAnnotations', task ':audioplayers_android:mergeReleaseConsumerProguardFiles', task ':audioplayers_android:mergeReleaseJavaResource', task ':audioplayers_android:syncReleaseLibJars', task ':audioplayers_android:bundleReleaseLocalLintAar', task ':flutter_local_notifications:stripReleaseDebugSymbols', task ':flutter_local_notifications:copyReleaseJniLibsProjectAndLocalJars', task ':flutter_local_notifications:extractDeepLinksForAarRelease', task ':flutter_local_notifications:extractReleaseAnnotations', task ':flutter_local_notifications:mergeReleaseConsumerProguardFiles', task ':flutter_local_notifications:mergeReleaseJavaResource', task ':flutter_local_notifications:syncReleaseLibJars', task ':flutter_local_notifications:bundleReleaseLocalLintAar', task ':image_picker_android:stripReleaseDebugSymbols', task ':image_picker_android:copyReleaseJniLibsProjectAndLocalJars', task ':image_picker_android:extractDeepLinksForAarRelease', task ':image_picker_android:extractReleaseAnnotations', task ':image_picker_android:mergeReleaseConsumerProguardFiles', task ':image_picker_android:mergeReleaseJavaResource', task ':image_picker_android:syncReleaseLibJars', task ':image_picker_android:bundleReleaseLocalLintAar', task ':flutter_plugin_android_lifecycle:stripReleaseDebugSymbols', task ':flutter_plugin_android_lifecycle:copyReleaseJniLibsProjectAndLocalJars', task ':flutter_plugin_android_lifecycle:extractDeepLinksForAarRelease', task ':flutter_plugin_android_lifecycle:extractReleaseAnnotations', task ':flutter_plugin_android_lifecycle:mergeReleaseConsumerProguardFiles', task ':flutter_plugin_android_lifecycle:mergeReleaseJavaResource', task ':flutter_plugin_android_lifecycle:syncReleaseLibJars', task ':flutter_plugin_android_lifecycle:bundleReleaseLocalLintAar', task ':path_provider_android:stripReleaseDebugSymbols', task ':path_provider_android:copyReleaseJniLibsProjectAndLocalJars', task ':path_provider_android:extractDeepLinksForAarRelease', task ':path_provider_android:extractReleaseAnnotations', task ':path_provider_android:mergeReleaseConsumerProguardFiles', task ':path_provider_android:mergeReleaseJavaResource', task ':path_provider_android:syncReleaseLibJars', task ':path_provider_android:bundleReleaseLocalLintAar', task ':permission_handler_android:stripReleaseDebugSymbols', task ':permission_handler_android:copyReleaseJniLibsProjectAndLocalJars', task ':permission_handler_android:extractDeepLinksForAarRelease', task ':permission_handler_android:extractReleaseAnnotations', task ':permission_handler_android:mergeReleaseConsumerProguardFiles', task ':permission_handler_android:mergeReleaseJavaResource', task ':permission_handler_android:syncReleaseLibJars', task ':permission_handler_android:bundleReleaseLocalLintAar', task ':record_android:stripReleaseDebugSymbols', task ':record_android:copyReleaseJniLibsProjectAndLocalJars', task ':record_android:extractDeepLinksForAarRelease', task ':record_android:extractReleaseAnnotations', task ':record_android:mergeReleaseConsumerProguardFiles', task ':record_android:mergeReleaseJavaResource', task ':record_android:syncReleaseLibJars', task ':record_android:bundleReleaseLocalLintAar', task ':shared_preferences_android:stripReleaseDebugSymbols', task ':shared_preferences_android:copyReleaseJniLibsProjectAndLocalJars', task ':shared_preferences_android:extractDeepLinksForAarRelease', task ':shared_preferences_android:extractReleaseAnnotations', task ':shared_preferences_android:mergeReleaseConsumerProguardFiles', task ':shared_preferences_android:mergeReleaseJavaResource', task ':shared_preferences_android:syncReleaseLibJars', task ':shared_preferences_android:bundleReleaseLocalLintAar', task ':sqflite_android:stripReleaseDebugSymbols', task ':sqflite_android:copyReleaseJniLibsProjectAndLocalJars', task ':sqflite_android:extractDeepLinksForAarRelease', task ':sqflite_android:extractReleaseAnnotations', task ':sqflite_android:mergeReleaseConsumerProguardFiles', task ':sqflite_android:mergeReleaseJavaResource', task ':sqflite_android:syncReleaseLibJars', task ':sqflite_android:bundleReleaseLocalLintAar', task ':url_launcher_android:stripReleaseDebugSymbols', task ':url_launcher_android:copyReleaseJniLibsProjectAndLocalJars', task ':url_launcher_android:extractDeepLinksForAarRelease', task ':url_launcher_android:extractReleaseAnnotations', task ':url_launcher_android:mergeReleaseConsumerProguardFiles', task ':url_launcher_android:mergeReleaseJavaResource', task ':url_launcher_android:syncReleaseLibJars', task ':url_launcher_android:bundleReleaseLocalLintAar', task ':audio_session:lintVitalAnalyzeRelease', task ':audio_session:writeReleaseLintModelMetadata', task ':audio_waveforms:lintVitalAnalyzeRelease', task ':audio_waveforms:writeReleaseLintModelMetadata', task ':audioplayers_android:lintVitalAnalyzeRelease', task ':audioplayers_android:writeReleaseLintModelMetadata', task ':flutter_local_notifications:lintVitalAnalyzeRelease', task ':flutter_local_notifications:writeReleaseLintModelMetadata', task ':flutter_plugin_android_lifecycle:lintVitalAnalyzeRelease', task ':flutter_plugin_android_lifecycle:writeReleaseLintModelMetadata', task ':image_picker_android:lintVitalAnalyzeRelease', task ':image_picker_android:writeReleaseLintModelMetadata', task ':just_audio:lintVitalAnalyzeRelease', task ':just_audio:writeReleaseLintModelMetadata', task ':path_provider_android:lintVitalAnalyzeRelease', task ':path_provider_android:writeReleaseLintModelMetadata', task ':permission_handler_android:lintVitalAnalyzeRelease', task ':permission_handler_android:writeReleaseLintModelMetadata', task ':record_android:lintVitalAnalyzeRelease', task ':record_android:writeReleaseLintModelMetadata', task ':shared_preferences_android:lintVitalAnalyzeRelease', task ':shared_preferences_android:writeReleaseLintModelMetadata', task ':sqflite_android:lintVitalAnalyzeRelease', task ':sqflite_android:writeReleaseLintModelMetadata', task ':url_launcher_android:lintVitalAnalyzeRelease', task ':url_launcher_android:writeReleaseLintModelMetadata', task ':app:lintVitalAnalyzeRelease', task ':audio_session:generateReleaseLintVitalModel', task ':audio_waveforms:generateReleaseLintVitalModel', task ':audioplayers_android:generateReleaseLintVitalModel', task ':flutter_local_notifications:generateReleaseLintVitalModel', task ':flutter_plugin_android_lifecycle:generateReleaseLintVitalModel', task ':image_picker_android:generateReleaseLintVitalModel', task ':just_audio:generateReleaseLintVitalModel', task ':path_provider_android:generateReleaseLintVitalModel', task ':permission_handler_android:generateReleaseLintVitalModel', task ':record_android:generateReleaseLintVitalModel', task ':shared_preferences_android:generateReleaseLintVitalModel', task ':sqflite_android:generateReleaseLintVitalModel', task ':url_launcher_android:generateReleaseLintVitalModel', task ':app:lintVitalReportRelease', task ':app:lintVitalRelease', task ':app:convertShrunkResourcesToBinaryRelease', task ':app:optimizeReleaseResources', task ':app:collectReleaseDependencies', task ':app:sdkReleaseDependencyData', task ':app:validateSigningRelease', task ':app:writeReleaseAppMetadata', task ':app:writeReleaseSigningConfigVersions', task ':app:packageRelease', task ':app:createReleaseApkListingFileRedirect', task ':app:assembleRelease', task ':audio_session:bundleReleaseAar', task ':audio_session:mapReleaseSourceSetPaths', task ':audio_session:mergeReleaseResources', task ':audio_session:verifyReleaseResources', task ':audio_session:assembleRelease', task ':audio_waveforms:bundleReleaseAar', task ':audio_waveforms:mapReleaseSourceSetPaths', task ':audio_waveforms:mergeReleaseResources', task ':audio_waveforms:verifyReleaseResources', task ':audio_waveforms:assembleRelease', task ':audioplayers_android:bundleReleaseAar', task ':audioplayers_android:mapReleaseSourceSetPaths', task ':audioplayers_android:mergeReleaseResources', task ':audioplayers_android:verifyReleaseResources', task ':audioplayers_android:assembleRelease', task ':flutter_local_notifications:bundleReleaseAar', task ':flutter_local_notifications:mapReleaseSourceSetPaths', task ':flutter_local_notifications:mergeReleaseResources', task ':flutter_local_notifications:verifyReleaseResources', task ':flutter_local_notifications:assembleRelease', task ':flutter_plugin_android_lifecycle:bundleReleaseAar', task ':flutter_plugin_android_lifecycle:mapReleaseSourceSetPaths', task ':flutter_plugin_android_lifecycle:mergeReleaseResources', task ':flutter_plugin_android_lifecycle:verifyReleaseResources', task ':flutter_plugin_android_lifecycle:assembleRelease', task ':image_picker_android:bundleReleaseAar', task ':flutter_plugin_android_lifecycle:compileReleaseLibraryResources', task ':image_picker_android:mapReleaseSourceSetPaths', task ':image_picker_android:mergeReleaseResources', task ':image_picker_android:verifyReleaseResources', task ':image_picker_android:assembleRelease', task ':just_audio:bundleReleaseAar', task ':audio_session:compileReleaseLibraryResources', task ':just_audio:mapReleaseSourceSetPaths', task ':just_audio:mergeReleaseResources', task ':just_audio:verifyReleaseResources', task ':just_audio:assembleRelease', task ':path_provider_android:bundleReleaseAar', task ':path_provider_android:mapReleaseSourceSetPaths', task ':path_provider_android:mergeReleaseResources', task ':path_provider_android:verifyReleaseResources', task ':path_provider_android:assembleRelease', task ':permission_handler_android:bundleReleaseAar', task ':permission_handler_android:mapReleaseSourceSetPaths', task ':permission_handler_android:mergeReleaseResources', task ':permission_handler_android:verifyReleaseResources', task ':permission_handler_android:assembleRelease', task ':record_android:bundleReleaseAar', task ':record_android:mapReleaseSourceSetPaths', task ':record_android:mergeReleaseResources', task ':record_android:verifyReleaseResources', task ':record_android:assembleRelease', task ':shared_preferences_android:bundleReleaseAar', task ':shared_preferences_android:mapReleaseSourceSetPaths', task ':shared_preferences_android:mergeReleaseResources', task ':shared_preferences_android:verifyReleaseResources', task ':shared_preferences_android:assembleRelease', task ':sqflite_android:bundleReleaseAar', task ':sqflite_android:mapReleaseSourceSetPaths', task ':sqflite_android:mergeReleaseResources', task ':sqflite_android:verifyReleaseResources', task ':sqflite_android:assembleRelease', task ':url_launcher_android:bundleReleaseAar', task ':url_launcher_android:mapReleaseSourceSetPaths', task ':url_launcher_android:mergeReleaseResources', task ':url_launcher_android:verifyReleaseResources', task ':url_launcher_android:assembleRelease']
+Tasks that were excluded: []
+work action Parameters of FilterShrinkerRulesTransform (Thread[#199,included builds,5,main]) started.
+work action Parameters of ExtractAarTransform (Thread[#199,included builds,5,main]) started.
+work action Parameters of ExtractAarTransform (Thread[#199,included builds,5,main]) started.
+work action Parameters of ExtractAarTransform (Thread[#199,included builds,5,main]) started.
+Resolve mutations for :app:ReleaseMinSdkCheck (Thread[#199,included builds,5,main]) started.
+:app:ReleaseMinSdkCheck (Thread[#199,included builds,5,main]) started.
+
+> Task :app:ReleaseMinSdkCheck
+Caching disabled for task ':app:ReleaseMinSdkCheck' because:
+  Build cache is disabled
+Task ':app:ReleaseMinSdkCheck' is not up-to-date because:
+  Task has not declared any outputs despite executing actions.
+Resolve mutations for :app:compileFlutterBuildRelease (Thread[#199,included builds,5,main]) started.
+:app:compileFlutterBuildRelease (Thread[#199,included builds,5,main]) started.
+
+> Task :app:compileFlutterBuildRelease
+Caching disabled for task ':app:compileFlutterBuildRelease' because:
+  Build cache is disabled
+  Caching has not been enabled for the task
+Task ':app:compileFlutterBuildRelease' is not up-to-date because:
+  Task has failed previously.
+Starting process 'command 'C:\flutter\src\flutter\bin\flutter.bat''. Working directory: D:\freelance\quran_flutter_auth Command: C:\flutter\src\flutter\bin\flutter.bat --quiet assemble --no-version-check --depfile D:\freelance\quran_flutter_auth\build\app\intermediates\flutter\release/flutter_build.d --output D:\freelance\quran_flutter_auth\build\app\intermediates\flutter\release -dTargetFile=lib/main.dart -dTargetPlatform=android -dBuildMode=release -dTrackWidgetCreation=true -dFlavor= -dAndroidArchs=android-arm android-arm64 android-x64 -dMinSdkVersion=24 android_aot_bundle_release_android-arm android_aot_bundle_release_android-arm64 android_aot_bundle_release_android-x64
+Successfully started process 'command 'C:\flutter\src\flutter\bin\flutter.bat''
+Target dart_build failed: Error: Android NDK Clang could not be found.
+
+
+> Task :app:compileFlutterBuildRelease FAILED
+Build 1e733ce0-0086-4d1f-8d9d-c9f437695043 is closed
+
+[Incubating] Problems report is available at: file:///D:/freelance/quran_flutter_auth/build/reports/problems/problems-report.html
+
+FAILURE: Build failed with an exception.
+
+* What went wrong:
+Execution failed for task ':app:compileFlutterBuildRelease'.
+> Process 'command 'C:\flutter\src\flutter\bin\flutter.bat'' finished with non-zero exit value 1
+
+* Try:
+> Run with --stacktrace option to get the stack trace.
+> Run with --debug option to get more log output.
+> Run with --scan to get full insights.
+> Get more help at https://help.gradle.org.
+
+Deprecated Gradle features were used in this build, making it incompatible with Gradle 9.0.
+
+You can use '--warning-mode all' to show the individual deprecation warnings and determine if they come from your own scripts or plugins.
+
+For more on this, please refer to https://docs.gradle.org/8.14/userguide/command_line_interface.html#sec:command_line_warnings in the Gradle documentation.
+
+BUILD FAILED in 15s
+6 actionable tasks: 2 executed, 4 up-to-date
+Watched directory hierarchies: [C:\flutter\src\flutter\packages\flutter_tools\gradle]

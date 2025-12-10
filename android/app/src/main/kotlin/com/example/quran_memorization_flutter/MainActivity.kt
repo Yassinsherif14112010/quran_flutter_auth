@@ -1,4 +1,4 @@
-package com.quran.memorization.quran_memorization_flutter
+package com.example.quran_memorization_flutter
 
 import io.flutter.embedding.android.FlutterActivity
 
